@@ -1,0 +1,12 @@
+{
+  "type": "mysql",
+  "host": "coredb.cng6xtxiept4.us-east-1.rds.amazonaws.com",
+  "port": 3306,
+  "username": "rootdb",
+  "password": "HxFxtsyctv7hPTRGa8kK",
+  "database": "pilback_db",
+  "entities": ["./src/entity/*.[js|ts]"],
+  "synchronize": true,
+  "dropSchema": false,
+  "migrationsRun": false
+}
